@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Product Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    color: #000;
+}
+
+.burger{
+    display: none;
+}
+
+@font-face {
+    font-family: 'Plantagenet Cherokee';
+    src: url('../fonts/Plantagenet\ Cherokee.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../fonts/Product\ Sans\ Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media(min-width: 1200px) {
+    .container-fluid {
+        max-width: 1700px;
+        padding: 0 16px;
+    }
+}
+
+header {
+    height: 119px;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu li a {
+    font-family: "Product Sans";
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 50px;
+}
+
+.header-cta {
+    font-family: "Product Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F39200;
+    color: #fff;
+    width: 210px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+}
+
+.header-cta:hover {
+    background-color: #00383e;
+}
+
+.banner-section .banner-fix-title {
+    margin-top: 55px;
+}
+
+.banner-section .banner-fix-title h1 {
+    font-family: "Plantagenet Cherokee";
+    font-size: 56px;
+    color: #fff;
+}
+
+.banner-section .banner-fix-description h2 {
+    font-family: "Product Sans";
+    font-size: 26px;
+    color: #fff;
+}
+
+.banner-section .carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 40px 0;
+}
+
+.bg-blue {
+    background-color: #EAF4F4;
+}
+
+.box-description h3 {
+    font-family: "Plantagenet Cherokee";
+    font-size: 36px;
+    color: #00383E;
+}
+
+.box-description p {
+    font-family: "Product Sans";
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.box-description .fix-post-description {
+    margin-top: 30px;
+}
+
+.fix-btn-grp {
+    display: flex;
+}
+
+.box-description .fix-btn-grp {
+    margin-top: 20px;
+}
+
+.cta-btn {
+    width: 241px;
+    height: 50px;
+    color: #fff;
+    font-family: "Product Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #f39200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    transition: 0.4s ease;
+}
+
+.cta-btn:hover {
+    background-color: #00383e;
+}
+
+.cta-btn.green {
+    background-color: #00383e;
+}
+
+.cta-btn.green:hover {
+    background-color: #f39200;
+}
+
+.cta-btn.white {
+    background-color: #fff;
+    color: #000;
+    transition: 0.4s ease;
+}
+
+.cta-btn.white:hover {
+    background-color: #00383e;
+    color: #fff;
+}
+
+.mission-content .cta-btn.green:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.right-align {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box-description {
+    max-width: 510px;
+    margin: 0px 62px 10px 0;
+}
+
+.why-section {
+    height: 722px;
+    background: url(../images/parallax.png);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.why-content .fix-post-title {
+    margin-bottom: 70px;
+}
+
+.why-content .fix-post-title h3 {
+    color: #fff;
+}
+
+.fix-post-title h3 {
+    font-family: "Plantagenet Cherokee";
+    font-size: 36px;
+    color: #00383E;
+}
+
+.why-content {
+    max-width: 560px;
+    /* padding-left: 73px; */
+}
+
+.fix-ceo-name span {
+    font-size: 18px;
+    color: #F39200;
+    font-family: "Product Sans";
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.fix-ceo-name p {
+    font-size: 16px;
+    color: #fff;
+    font-family: "Product Sans";
+}
+
+.fix-ceo-name {
+    margin-top: 40px;
+}
+
+.ceo-box {
+    position: relative;
+    top: 20px;
+    /* right: 30px; */
+}
+
+.bg-orange {
+    background-color: #F39200;
+}
+
+.left-right-img .fix-post-title h3 {
+    color: #fff;
+}
+
+.left-right-img .fix-post-title {
+    margin-bottom: 30px;
+}
+
+.left-right-img .fix-post-description p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.left-right-img .mission-content {
+    max-width: 600px;
+    padding-left: 100px;
+}
+
+.left-right-img .img {
+    position: relative;
+    top: -100px;
+}
+
+.our-services {
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+.our-services h3 {
+    margin-bottom: 60px;
+}
+
+.our-services h4 {
+    font-size: 26px;
+    font-family: "Product Sans";
+    font-weight: 700;
+}
+
+.service-tabs {
+    margin-top: 80px;
+}
+
+.service-tabs img {
+    margin-bottom: 30px;
+}
+
+.service-tabs .tab span {
+    font-family: "Plantagenet Cherokee";
+    font-size: 26px;
+    color: #F39200;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.service-tabs .tab p {
+    font-family: "Product Sans";
+    font-size: 16px;
+    color: #000;
+    padding: 0 12px;
+}
+
+.our-model {
+    padding: 100px 0 0;
+}
+
+.our-model .fix-post-title {
+    text-align: center;
+}
+
+.our-model-para p {
+    font-family: "Product Sans";
+    font-size: 16px;
+    color: #000;
+    line-height: 24px;
+}
+
+.our-model-para {
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+
+.fix-post-description p {
+    font-family: "Product Sans";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.future {
+    padding: 100px 0 0;
+}
+
+.future .fix-post-title {
+    text-align: center;
+}
+
+.future-tab {
+    text-align: center;
+}
+
+.future-desc {
+    background-color: #EAF4F4;
+    padding: 40px 60px;
+    min-height: 260px;
+}
+
+.future-tab img {
+    width: 100%;
+}
+
+.future-tab h4 {
+    font-family: "Plantagenet Cherokee";
+    font-size: 26px;
+    line-height: 35px;
+    color: #00383E;
+    margin-bottom: 30px;
+}
+
+.future-tab p {
+    font-family: "Product Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.contact-tab {
+    background-color: #00383E;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.contact-tab h4 {
+    color: #fff;
+    font-family: "Plantagenet Cherokee";
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.contact-tab p {
+    font-family: "Product Sans";
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.contact-tab .cta-btn {
+    margin-top: 50px;
+    transition: 0.4s ease;
+}
+
+.contact-tab .cta-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.contact-tab .contact-desc a {
+    color: #F39200;
+    transition: 0.4s ease;
+}
+
+.contact-tab .contact-desc a:hover {
+    color: #fff;
+}
+
+.community h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.community p {
+    font-family: "Product Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+
+.community a {
+    color: #F39200;
+    transition: 0.4s ease;
+    border-bottom: 1px solid;
+}
+
+.community a:hover {
+    color: #000;
+    border-color: transparent;
+}
+
+.first-div {
+    margin-bottom: 80px;
+}
+
+.second-div {
+    margin-bottom: 40px;
+}
+
+.second-div .right {
+    position: relative;
+}
+
+.second-div .left {
+    padding-right: 8px;
+}
+
+.second-div img:nth-child(2) {
+    position: absolute;
+    top: 45%;
+    left: 18%;
+}
+
+.second-div .left p {
+    margin-bottom: 30px;
+}
+
+.get-involved {
+    margin-top: 170px;
+}
+
+
+.apply-now {
+    text-align: center;
+    margin: 100px 0 0;
+}
+
+.apply-now .cta-btn {
+    margin: 40px auto;
+    width: 426px;
+    background-color: #F39200;
+    background-image: url(../images/download.png);
+    background-repeat: no-repeat;
+    background-position: 70px 50%;
+}
+
+.apply-now .cta-btn:hover {
+    background-color: #00383e;
+}
+
+.apply-now input[type="text"] {
+    background-image: url(../images/form-name.png);
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+}
+
+.apply-now input[type="email"] {
+    background-image: url(../images/form-email.png);
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+}
+
+.apply-now input,
+.apply-now textarea {
+    width: 100%;
+    font-family: "Product Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 25px 40px 20px;
+}
+
+.apply-now input::placeholder,
+.apply-now textarea::placeholder {
+    width: 100%;
+    font-family: "Product Sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.apply-now input[type="text"],
+.apply-now input[type="email"] {
+    border-bottom: 1px solid #F39200;
+}
+
+.apply-now textarea {
+    border: 1px solid #F39200;
+    margin-top: 40px;
+    height: 230px;
+}
+
+.form-div {
+    width: 56%;
+    margin: auto;
+}
+
+.apply-now input[type="submit"] {
+    height: 50px;
+    background-color: #00383E;
+    color: #fff;
+    font-family: "Product Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+
+.apply-now input[type="submit"]:hover {
+    background-color: #F39200;
+}
+
+footer {
+    padding: 70px 0 50px;
+}
+
+footer .top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer .bottom p {
+    font-size: 14px;
+}

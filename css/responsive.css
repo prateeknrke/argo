@@ -1,0 +1,544 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+
+    .future .container {
+        max-width: 1260px;
+    }
+
+    .contact-tab .container {
+        max-width: 1090px;
+    }
+
+    .community .container {
+        max-width: 1075px;
+    }
+
+    .footer .container {
+        max-width: 1090px;
+    }
+
+}
+
+@media(max-width: 1400px) {
+    .box-description {
+        padding: 20px 0;
+    }
+
+    .left-right-img .mission-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .banner-section .banner-fix-title h1 {
+        font-size: 45px;
+    }
+
+    .banner-section .banner-fix-description h2 {
+        font-size: 26px;
+    }
+
+    .banner-fix-logo {
+        width: 700px;
+    }
+
+    .fix-post-title h3 {
+        font-size: 30px;
+    }
+
+    .why-content .fix-post-title {
+        margin-bottom: 30px;
+    }
+
+    .ceo-box {
+        padding-left: 40px;
+    }
+
+    .left-right-img .mission-content {
+        padding: 20px;
+    }
+
+    .left-right-img .fix-post-description p {
+        margin-bottom: 10px;
+    }
+
+    .left-right-img .fix-post-title {
+        margin-bottom: 20px;
+    }
+
+    .our-services {
+        padding: 50px 0 0;
+        text-align: center;
+    }
+
+    .our-services h3 {
+        margin-bottom: 20px;
+    }
+
+    .our-services h4 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .service-tabs {
+        margin-top: 40px;
+    }
+
+    .service-tabs .tab span {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .service-tabs .tab p {
+        padding: 0;
+    }
+
+    .our-model {
+        padding: 50px 0 0;
+    }
+
+    .our-model .mt-5 {
+        margin-top: 30px !important;
+    }
+
+    .our-model-para {
+        padding-right: 10px;
+    }
+
+    .future {
+        padding: 50px 0 0;
+    }
+
+    .future-tab h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .future-desc {
+        padding: 20px;
+        min-height: 220px;
+    }
+
+    .contact-tab h4 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+
+    .contact-tab p {
+        font-size: 17px;
+    }
+
+    .contact-tab .cta-btn {
+        margin-top: 30px;
+    }
+
+    .contact-tab {
+        height: 250px;
+        margin: 40px 0;
+    }
+
+    .community h3 {
+        margin-bottom: 30px;
+    }
+
+    .first-div {
+        margin-bottom: 40px;
+    }
+
+    .second-div .left p {
+        margin-bottom: 10px;
+    }
+
+    .second-div {
+        margin-bottom: 10px;
+    }
+
+    .cta-btn {
+        width: 210px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .apply-now {
+        margin: 50px 0 0;
+    }
+
+    .header-cta {
+        width: 210px;
+        height: 45px;
+        font-size: 13px;
+    }
+
+
+}
+
+@media(max-width: 1024px) {
+    .second-div img:nth-child(2) {
+        left: 9%;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    .banner-fix-logo {
+        width: 420px;
+    }
+
+    #banner {
+        height: 400px;
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-item {
+        height: 100%;
+    }
+
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .banner-section .banner-fix-title h1 {
+        font-size: 38px;
+    }
+
+    .banner-section .banner-fix-description h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .banner-section .banner-fix-title {
+        margin-top: 25px;
+    }
+
+    .banner-section .carousel-caption {
+        padding: 0;
+    }
+
+    .right-align {
+        display: block;
+    }
+
+    .box-description {
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .fix-post-description p {
+        font-size: 15px;
+        padding-bottom: 0;
+        margin-bottom: 10px;
+    }
+
+    .box-description .fix-post-description {
+        margin-top: 10px;
+    }
+
+    .why-section {
+        height: 600px;
+    }
+
+    .why-content .fix-post-title {
+        margin-bottom: 20px;
+    }
+
+    .ceo-box {
+        padding-left: 0px;
+    }
+
+    .left-right-img .img {
+        top: -50px;
+    }
+
+    .fix-post-title h3 {
+        font-size: 26px;
+    }
+
+    .our-services h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .service-tabs img {
+        margin-bottom: 10px;
+        width: 120px;
+    }
+
+    .container {
+        max-width: 98%;
+    }
+
+    .service-tabs .tab p {
+        font-size: 15px;
+    }
+
+    .service-tabs .tab span {
+        font-size: 20px;
+    }
+
+    .our-model-para {
+        padding-right: 0;
+    }
+
+    .future .mt-5 {
+        margin-top: 30px !important;
+    }
+
+    .our-mission .bg-orange {
+        display: block !important;
+    }
+
+    .left-right-img .fix-post-title {
+        margin-bottom: 10px;
+    }
+
+    .contact-tab h4 {
+        font-size: 26px;
+    }
+
+    .contact-tab .cta-btn {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .second-div img:nth-child(2) {
+        left: 4%;
+    }
+
+    .community p {
+        font-size: 15px;
+    }
+
+    .first-div {
+        margin-bottom: 20px;
+    }
+
+    .second-div .left {
+        padding-right: 0;
+    }
+
+    .get-involved {
+        margin-top: 90px;
+    }
+
+    .header-cta {
+        width: 170px;
+    }
+
+    .fix-menu {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        cursor: pointer;
+    }
+
+    .burger span {
+        display: inline-block;
+        width: 40px;
+        height: 4px;
+        background-color: #000;
+    }
+
+    .cta-burger {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .offcanvas {
+        width: 100% !important;
+        border-left: 0 !important;
+    }
+
+    .burger-close span {
+        display: inline-block;
+        width: 40px;
+        height: 4px;
+        background-color: #000;
+    }
+
+    .burger-close span:nth-child(1) {
+        transform: rotate(45deg) translate(26px, -33px);
+    }
+
+    .burger-close span:nth-child(2) {
+        transform: rotate(-45deg) translate(5px, -2px);
+    }
+
+    .offcanvas-body {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .mobile-menu ul li a {
+        font-family: "Product Sans";
+        color: #000;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        width: 100%;
+        display: inline-block;
+        padding: 10px 20px;
+        border-bottom: 1px solid #F39200;
+        transition: 0.4s ease;
+    }
+
+    .mobile-menu ul li a:hover{
+        color: #F39200;
+    }
+
+
+
+}
+
+@media(max-width: 767px) {
+    .form-div {
+        width: 96%;
+    }
+
+    .apply-now input,
+    .apply-now textarea {
+        padding: 20px 25px 15px;
+    }
+
+    .apply-now textarea {
+        margin-top: 30px;
+        height: 200px;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .apply-now .cta-btn {
+        width: 100%;
+    }
+
+    .fix-btn-grp {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        margin: 0;
+    }
+
+    .why-section {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .ceo-box {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .ceo-box img {
+        max-width: 200px;
+    }
+
+    .fix-ceo-name {
+        margin-top: 10px;
+    }
+
+    .left-right-img .img {
+        position: static;
+    }
+
+    .our-services,
+    .our-model,
+    .future {
+        padding: 30px 0 0;
+    }
+
+    .service-tabs .tab span {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+    .service-tabs .tab {
+        margin-bottom: 30px;
+    }
+
+    .contact-tab .cta-btn {
+        margin-top: 20px;
+    }
+
+    .contact-tab {
+        margin: 20px 0;
+    }
+
+    .community h3 {
+        margin-bottom: 10px;
+    }
+
+    .second-div .right img {
+        width: 80%;
+    }
+
+    .second-div img:nth-child(2) {
+        left: 20%;
+    }
+
+    .third-div {
+        padding-top: 90px;
+    }
+
+    .get-involved {
+        margin-top: 20px;
+    }
+
+    .apply-now {
+        margin: 30px 0 0;
+    }
+
+    .apply-now .cta-btn {
+        margin: 20px auto;
+        background-position: 50px 50%;
+    }
+
+    .cta-burger .fix-header-cta {
+        display: none;
+    }
+
+    .banner-fix-logo {
+        width: 90%;
+    }
+
+    .banner-section .banner-fix-title h1 {
+        font-size: 42px;
+        padding: 0 40px;
+    }
+
+    .banner-section .banner-fix-description h2 {
+        margin: 10px 0 0;
+    }
+
+    .fix-post-title h3 {
+        font-size: 28px;
+    }
+
+    .offcanvas-body .mobile-cta {
+        margin-top: 30px;
+    }
+
+    .offcanvas-body .mobile-cta a {
+        margin: auto;
+    }
+
+
+}
