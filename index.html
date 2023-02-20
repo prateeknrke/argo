@@ -22,7 +22,19 @@
         <div class="offcanvas-body">
             <div class="mobile-menu">
                 <ul class="menu">
-                    <li><a href="#">About Us</a></li>
+                    <li class="menu-item-has-children"><a href="#">About Us</a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Who We Are</a></li>
+                            <li><a href="#">Why We Are</a></li>
+                            <li class="menu-item-has-children"><a href="#">Our Mission</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Who We Are</a></li>
+                                    <li><a href="#">Who We Are</a></li>
+                                    <li><a href="#">Who We Are</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a href="#">What We do</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
@@ -44,7 +56,19 @@
                 </div>
                 <div class="fix-menu">
                     <ul class="menu">
-                        <li><a href="#">About Us</a></li>
+                        <li class="menu-item-has-children"><a href="#">About Us</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="#">Why We Are</a></li>
+                                <li class="menu-item-has-children"><a href="#">Our Mission</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Our Services</a></li>
+                                        <li><a href="#">Our Model</a></li>
+                                        <li><a href="#">Future Projects</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
                         <li><a href="#">What We do</a></li>
                         <li><a href="#">Contact us</a></li>
                     </ul>
@@ -67,7 +91,7 @@
     <section>
         <div class="banner-section">
             <div class="container-fluid">
-                <div id="banner" class="carousel slide">
+                <div id="banner" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./images/banner.jpg" class="d-block w-100" alt="...">
@@ -256,7 +280,7 @@
         </div>
     </section>
 
-
+    <!-- our services -->
     <section>
         <div class="our-services">
             <div class="container">
@@ -307,6 +331,7 @@
         </div>
     </section>
 
+    <!-- our model -->
     <section>
         <div class="our-model">
             <div class="container">
@@ -344,7 +369,7 @@
         </div>
     </section>
 
-
+    <!-- future-projects -->
     <section>
         <div class="future">
             <div class="container">
@@ -381,7 +406,7 @@
         </div>
     </section>
 
-
+    <!-- contact tab -->
     <section>
         <div class="contact-tab">
             <div class="container">
@@ -402,6 +427,7 @@
         </div>
     </section>
 
+    <!-- community section -->
     <section>
         <div class="community">
             <div class="container">
@@ -486,6 +512,7 @@
     </section>
 
 
+    <!-- get-involved section -->
     <section>
         <div class="our-mission left-right-img get-involved">
             <div class="row g-0">
@@ -521,6 +548,7 @@
         </div>
     </section>
 
+    <!-- apply now -->
     <section>
         <div class="apply-now">
             <div class="container">
@@ -562,6 +590,8 @@
 
 
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/custom.js"></script>
 </body>
 
 </html>
