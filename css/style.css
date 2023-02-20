@@ -22,6 +22,7 @@ ul,
 ol,
 li {
     list-style: none;
+    position: relative;
 }
 
 a {
@@ -36,7 +37,7 @@ body {
     color: #000;
 }
 
-.burger{
+.burger {
     display: none;
 }
 
@@ -86,6 +87,10 @@ header .menu li a {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-weight: 600;
+}
+
+header .menu>li>a {
     margin: 0 50px;
 }
 
@@ -206,9 +211,9 @@ header .menu li a {
     color: #fff;
 }
 
-.mission-content .cta-btn.green:hover{
-  background-color: #fff;
-  color: #000;
+.mission-content .cta-btn.green:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .right-align {
@@ -433,7 +438,7 @@ header .menu li a {
     transition: 0.4s ease;
 }
 
-.contact-tab .cta-btn:hover{
+.contact-tab .cta-btn:hover {
     background-color: #fff;
     color: #000;
 }
